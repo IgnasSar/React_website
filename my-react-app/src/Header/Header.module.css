@@ -1,0 +1,26 @@
+.headerContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.youtubeLogo {
+    margin-left: 30px;
+    height: 40px;
+    width: auto;
+    order: 1;
+}
+
+.searchBar {
+    margin-left: 45cap;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 9px;
+    border: solid rgb(87, 85, 85) 1px;
+    padding-right: 15%;
+    border-right: none;
+    order: 2;
+}

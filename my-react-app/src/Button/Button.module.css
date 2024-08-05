@@ -1,0 +1,45 @@
+.searchButton {
+    padding-bottom: 9px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: solid rgb(87, 85, 85) 1px;
+    order: 2;
+}
+
+.magnifyingGlass {
+    max-height: 15px;
+    max-width: auto;
+}
+
+.microphoneButton {
+    margin-left: 25px;
+    height: 41px;
+    width: auto;
+    padding-bottom: 9px;
+    border-radius: 50px;
+    border: none;
+    margin-right: auto;
+}
+
+.microphoneImageStyle {
+    height: 20px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.button {
+    height: 41px;
+    margin-left: 10px;
+    width: auto;
+    padding-bottom: 9px;
+    border-radius: 50px;
+    border: none;
+}
+
+.buttonImage {
+    height: 20px;
+    width: 30px;
+    border: none;
+}

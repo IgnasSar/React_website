@@ -1,0 +1,15 @@
+
+.listButton{
+    height: 41px;
+    width: auto;
+    padding-bottom: 9px;
+    border-radius: 50px;
+    border: none;
+}
+
+.listButtonImage{
+    height: 30px;
+    width: auto;
+    border: none;
+    border-radius: 50px;
+}
