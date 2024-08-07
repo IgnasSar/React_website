@@ -1,10 +1,10 @@
-
 .listButton{
     height: 41px;
     width: auto;
     padding-bottom: 9px;
     border-radius: 50px;
     border: none;
+    margin-left: 10px;
 }
 
 .listButtonImage{
@@ -12,4 +12,53 @@
     width: auto;
     border: none;
     border-radius: 50px;
+}
+
+.listContainer{
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+    border: solid green 2px;
+    padding-right: 100px;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.listMember{
+    list-style-type: none;
+}
+
+.listMemberButton{
+    margin: 2px;
+    justify-content: center;
+}
+
+.listContainerSmall{
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+    border: solid green 2px;
+    padding-right: 20px;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.unorderedList{
+    margin: 0px;
+    padding: 0px;
+}
+
+.listMemberSmall{
+    list-style-type: none;
+}
+
+.listMemberSmallButton{
+    width: 74px;
+    height: auto;
+    font-size: 10px;
+}
+
+.listMemberSmallImage{
+    height: 30px;
+    width: auto;
 }

@@ -19,17 +19,10 @@ function Header() {
         setInput(event.target.value);
     }
 
-
-    /* useEffect(() => {
-        return (<UnorderedList/>);
-
-    }, [click]);
- */
     return (
         <>
             
             <div className={styles.headerContainer}>
-            <UnorderedList />
                 <img
                     className={styles.youtubeLogo}
                     src={Logo}

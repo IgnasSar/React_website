@@ -4,9 +4,10 @@ import UnorderedList from './UnorderedList/UnorderedList.jsx';
 
 function App() {
   return (
-    <>
+    <div className='mainContainer'>
+      <UnorderedList/>
       <Header/>
-    </>
+    </div>
   );
 }
 

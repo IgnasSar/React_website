@@ -4,6 +4,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: hidden;
+    border: solid red 2px;
+    flex-grow: 1;
 }
 
 .youtubeLogo {
