@@ -47,19 +47,27 @@ function UnorderedList() {
                 <div className={styles.listContainer}>
                     <ul className={styles.unorderedList}>
                         {listItems.map((item, index) => (
-                            <li
-                                className={styles.listMember}
-                                key={index}
-                            >
-                                <button className={styles.listMemberButton}>
-                                    {item}
-                                </button>
-                            </li>
+                            index !== 3 && (
+                                <li
+                                    className={styles.listMember}
+                                    key={index}
+                                >
+                                    <button className={styles.listMemberButton}>
+                                        <img
+                                            className={styles.listMemberImage}
+                                            src={imageItems[index]}
+                                        />
+                                        {item}
+                                    </button>
+                                </li>
+                            )
                         ))}
                     </ul>
+                    <hr className={styles.hr} />
                 </div>
-            )}
-        </div>
+            )
+            }
+        </div >
     );
 }
 
