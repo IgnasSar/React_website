@@ -1,9 +1,10 @@
-.mainContainer{
+.bodyContainer{
     border: solid black 2px;
     display: flex;
 }
 
-.bodyMainContainer{
+.bodyCardRowContainer{
     border: solid black 2px;
     display: flex;
+    flex-direction: column;
 }

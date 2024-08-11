@@ -9,7 +9,7 @@ function CardRow() {
     return (
         <div className={styles.cardRowContainer}>
             {
-                cards.map((item, index) => (
+                cards.map((_, index) => (
                     <Card key = {index}/>
                 )
             )
