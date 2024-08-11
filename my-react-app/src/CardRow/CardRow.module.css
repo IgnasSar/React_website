@@ -1,0 +1,8 @@
+.cardRowContainer{
+    border: aqua solid 2px;
+    height: 280px;
+    width: auto;
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+}

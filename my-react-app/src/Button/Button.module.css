@@ -31,8 +31,8 @@
 
 .button {
     height: 41px;
-    margin-left: 10px;
     width: auto;
+    margin-left: 10px;
     padding-bottom: 9px;
     border-radius: 50px;
     border: none;
@@ -41,5 +41,44 @@
 .buttonImage {
     height: 20px;
     width: 30px;
+    border: none;
+}
+
+.cardButton{
+    margin-top: 5px;
+    height: 35px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 6px;
+}
+
+.cardButtonImage{
+    height: 30px;
+    width: auto;
+    border-radius: 50px;
+    border: none;
+}
+
+.cardDotsButton{
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: 6px;
+}
+
+.cardDotsButtonImage{
+    height: 25px;
+    width: auto;
+    border-radius: 50px;
     border: none;
 }

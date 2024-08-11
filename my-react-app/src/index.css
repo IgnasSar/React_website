@@ -1,5 +1,9 @@
 .mainContainer{
     border: solid black 2px;
     display: flex;
-    align-items: center;
+}
+
+.bodyMainContainer{
+    border: solid black 2px;
+    display: flex;
 }

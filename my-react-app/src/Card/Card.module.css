@@ -1,0 +1,39 @@
+.cardContainer{
+    border: solid darkmagenta 2px;
+    height: 275px;
+    width: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardImage{
+    height: 200px;
+    width: 340px;
+    border-radius: 15px;
+    margin-left: 6px;
+}
+
+.underVideoContainer{
+    border: lightseagreen solid 2px;
+    display: flex;
+    gap: 10px;
+}
+
+.underVideoTextContainer{
+    border: solid darkred 2px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.underVideoTextContainer h3{
+    margin: 0px;
+    margin-top: 3px;
+}
+
+.underVideoTextContainer p{
+    margin: 0px;
+}
